@@ -27,9 +27,7 @@ keywords = [
     "style",
     "vhdl",
 ]
-dynamic = [
-    "version",
-]
+version = "3.34.0.dev0"
 readme = "README.rst"
 requires-python = ">=3.8"
 
