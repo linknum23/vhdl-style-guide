@@ -11,6 +11,7 @@ _build
 # Tox
 .tox
 build.out/
+.coverage
 
 # Ignore release notes
 release_notes.txt
@@ -18,6 +19,13 @@ release_notes.txt
 # IDE files
 .idea/
 .vscode/
+
+# mypy
+.mypy_cache/
+
+# Emacs
+*~
+\#*\#
 
 # Ignore external repos used for tests
 tests/external_repos/repos
